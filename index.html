@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <!-- ============= all css link added =============== -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./output/output.css">
+</head>
+
+
+<body>
+
+    <!-- =========== Preloader add ============ -->
+    <div id="preloader" class="fixed w-[100%] h-screen bg-[#21242D] z-[9999999]"></div>
+    <!-- =========== Preloader add ============ -->
+
+    <!-- =========== Profile left part start ============ -->
+    <div class="mx-[15px]">
+        <div class="profile-bar bg-[#212428] w-full xl:max-w-[350px] xl:fixed xl:left-[20px] xl:top-[50%] xl:translate-y-[-50%] lg:max-w-[950px] lg:mx-auto md:my-[15px] sm:my-[15px] xs:my-[15px] border-[1px] border-gray rounded-[30px] p-[30px] text-center">
+            <div class="w-full flex justify-between items-center">
+                <div class="w-[50%] text-left">
+                    <a href="#" class="inline-block relative text-[38px] capitalize font-semibold before:content-['c'] before:absolute before:right-[-30px] before:bottom-[50%] before:w-[20px] before:h-[20px] before:border-[1px] before:border-bg-secendary before:rounded-full before:text-[12px] before:text-center before:leading-[20px] before:font-normal">
+                        sabbir
+                    </a>
+                </div>
+                <div class="w-[50%] text-right">
+                    <span class="inline-block capitalize text-[14px] leading-[20px]">
+                        front-end web developer
+                    </span>
+                </div>
+            </div>
+            <img class="w-full max-w-[250px] mx-auto rounded-3xl mt-[20px] mb-[45px]" src="./images/me.jpg" alt="me">
+            <a class="block text-[20px]" href="#">sabbirh1357@gmail.com</a>
+            <a class="block text-[20px] capitalize" href="#">Dhaka, Bangladesh</a>
+            <span class="inline-block text-[14px] text-secendary mt-[30px] mb-[25px]">© 2022 Sabbir. All Rights Reserved</span>
+            <div class="space-x-[10px] text-gray mb-[30px]">
+                <a class="inline-block w-[40px] h-[40px] border-[2px] border-gray rounded-full leading-[37.5px] hover:border-primary hover:text-primary transition-all duration-300" href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="inline-block w-[40px] h-[40px] border-[2px] border-gray rounded-full leading-[37.5px] hover:border-primary hover:text-primary transition-all duration-300" href="https://twitter.com/sabbirhosain67">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="inline-block w-[40px] h-[40px] border-[2px] border-gray rounded-full leading-[37.5px] hover:border-primary hover:text-primary transition-all duration-300" href="https://www.instagram.com/sabbirh1357">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="inline-block w-[40px] h-[40px] border-[2px] border-gray rounded-full leading-[37.5px] hover:border-primary hover:text-primary transition-all duration-300" href="https://github.com/sabbirhosain67">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="">
+                <a class="w-full align-bottom bg-primary rounded-full text-[24px] text-white py-[5px] border-[2px] border-primary hover:bg-transparent hover:text-primary transition duration-300" href="#">
+                    <span class="inline-block text-[25px] mr-[15px]">
+                        <i class="fa-solid fa-download"></i>
+                    </span>
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- =========== Profile left part ends ============= -->
+
+    <!-- =========== mega menu part start ============= -->
+    <div class="mega-menu">
+        <button class="menu-btn w-[55px] h-[55px] bg-[#212428] fixed right-[70px] top-[60px] md:right-[40px] md:top-[40px] sm:right-[40px] sm:top-[40px] xs:right-[40px] xs:top-[40px] space-y-[5px] border-[1px] border-gray rounded-full z-[9999] hover:border-primary transition-all duration-300">
+            <div class="w-[20px] h-[2px] bg-white rounded-full mx-auto duration-300"></div>
+            <div class="w-[20px] h-[2px] bg-white rounded-full mx-auto duration-300"></div>
+        </button>
+        <div class="menu-bar invisible duration-300">
+            <div class="menu-hide fixed top-0 left-0 w-full h-screen bg-black/40"></div>
+            <div class="fixed menu-item duration-300 top-0 right-[-350px] bg-black h-screen w-[300px] pt-[50px] pl-[90px] z-[9999999]">
+                <h6 class="text-[22px] text-secendary capitalize mb-[40px]">menu</h6>
+                <ul class="space-y-[20px]">
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#home">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            home
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#about">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            about
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#resume">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </span>
+                            resume
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#service">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </span>
+                            services
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#skill">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                            skills
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#portfolio">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-building"></i>
+                            </span>
+                            portfolio
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#testimonial">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-user-group"></i>
+                            </span>
+                            testimonial
+                        </a>
+                    </li>
+                    <li class="text-[14px] text-secendary capitalize hover:text-primary duration-300 transition-all">
+                        <a href="#contact">
+                            <span class="pr-[7px]">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </span>
+                            contact
+                        </a>
+                    </li>
+                </ul>
+                <span class="block text-[18px] text-secendary capitalize mt-[60px] mb-[20px]">social</span>
+                <a href="#" class="text-secendary mr-[10px] hover:text-primary duration-300">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="text-secendary mr-[10px] hover:text-primary duration-300">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-secendary hover:text-primary duration-300">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- =========== mega menu part ends ============= -->
+
+    <!-- =========== navbar right part start ============= -->
+    <div class="navbar-right hidden xl:block fixed right-[70px] top-[50%] translate-y-[-50%] py-[25px] border-[1px] border-gray rounded-full z-[999] bg-[#212428]">
+        <ul class="inline-block space-y-[15px] text-secendary text-center">
+            <li class="nav-item">
+                <a href="#home">
+                    <i class="fa-solid fa-house"></i> 
+                </a>
+            </li>
+            <li class="nav-item before:content-['about'] before:left-[-42px]">
+                <a href="#about">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['resume'] before:left-[-55px]">
+                <a href="#resume">
+                    <i class="fa-solid fa-briefcase"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['services'] before:left-[-55px]">
+                <a href="#service">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['skills'] before:left-[-39px]">
+                <a href="#skill">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['portfolio'] before:left-[-55px]">
+                <a href="#portfolio">
+                    <i class="fa-solid fa-building"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['testimonial'] before:left-[-70px]">
+                <a href="#testimonial">
+                    <i class="fa-solid fa-user-group"></i>
+                </a>
+            </li>
+            <li class="nav-item before:content-['contact'] before:left-[-50px]">
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- =========== navbar right part ends ============= -->
+    
+    <!-- ================ Home part start ================ -->
+    <section id="home" class="py-[70px]">
+        <div class="container">
+            <div class="home-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="flex items-center justify-center text-[12px] text-primary leading-none w-[140px] border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">introduce</span>
+                </div>
+                <div class="">
+                    <h1 class="head text-[68px] md:text-[58px] sm:text-[48px] xs:text-[44px] capitalize leading-[90px] sm:leading-[68px] xs:leading-[58px]">hello i'm <span class="text-primary">sabbir Hosain</span>,</h1>
+                    <h2 class="text-[38px] md:text-[34px] sm:text-[30px] xs:text-[24px] capitalize mb-[40px] sm:mb-[25px] xs:mt-[15px]">front-end web developer</h2>
+                    <p class="w-[60%] xs:w-full text-[16px] text-secendary leading-[24px]">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
+                </div>
+                <div class="flex sm:flex-wrap sm:flex-col-reverse xs:flex-wrap xs:flex-col-reverse w-full justify-between items-end">
+                    <div class="w-full flex items-center mt-[30px] space-x-[50px] md:space-x-[80px] sm:space-x-[60px] uppercase">
+                        <div>
+                            <h3 class="text-[58px] md:text-[48px] sm:text-[44px] xs:text-[40px] text-primary">03+</h3>
+                            <span class="text-[14px] text-secendary">months of<br>experience</span>
+                        </div>
+                        <div>
+                            <h3 class="text-[58px] md:text-[48px] sm:text-[44px] xs:text-[40px] text-primary">03+</h3>
+                            <span class="text-[14px] text-secendary">projects completed on 1<br>countries</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-end mt-[30px]">
+                        <a href="#portfolio" class="w-[180px] h-[180px] md:w-[160px] md:h-[160px] sm:w-[140px] sm:h-[140px] xs:w-[120px] xs:h-[120px] p-[15px] border-[1px] border-gray rounded-full">
+                            <span class="relative">
+                                <img class="img-rotate pl-[4px] sm:pl-0 xs:pl-0" src="./images/project.png" alt="project">
+                                <span class="absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] text-[24px]">
+                                    <i class="fa-solid fa-arrow-down-long"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ Home part ends ================= -->
+
+    <!-- ================ about part start ================= -->
+    <section id="about" class="py-[70px]">
+        <div class="container">
+            <div class="about-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[120px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">about</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">Every great design begin with
+                    an even <span class="text-primary">better story</span></h2>
+                <p class="w-[80%] xs:w-full text-[16px] text-secendary leading-[30px]">Since beginning my journey as a freelance designer nearly 3 months ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ================ about part ends ================= -->
+
+    <!-- ================ resume part start ================= -->
+    <section id="resume" class="py-[70px]">
+        <div class="container">
+            <div class="resume-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[120px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-briefcase"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">resume</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">Education & <span class="text-primary">Experience</span></h2>
+                <div>
+                    <div class="edu-item pl-[70px] pb-[60px] relative before:absolute before:content before:top-0 before:left-[-7px] before:w-[13px] before:h-[13px] before:bg-secendary before:rounded-full border-l-[1px] border-gray before:duration-300">
+                        <span class="text-[16px] text-secendary mb-[20px] leading-none duration-300">2021 - 2022</span>
+                        <h4 class="text-[24px] capitalize mb-[5px]">responsive web design</h4>
+                        <h6 class="text-[16px] text-secendary capitalize">creative IT institute</h6>
+                    </div>
+                    <div class="edu-item pl-[70px] pb-[60px] relative before:absolute before:content before:top-[3px] before:left-[-7px] before:w-[13px] before:h-[13px] before:bg-secendary before:rounded-full border-l-[1px] border-gray before:duration-300">
+                        <span class="text-[16px] text-secendary mb-[20px] duration-300">2015 - 2019</span>
+                        <h4 class="text-[24px] capitalize mb-[5px]">diploma in engineering</h4>
+                        <h6 class="text-[16px] text-secendary capitalize">imperial polytechnic institute</h6>
+                    </div>
+                    <div class="edu-item pl-[70px] relative before:absolute before:content before:top-[3px] before:left-[-7px] before:w-[13px] before:h-[13px] before:bg-secendary before:rounded-full border-l-[1px] border-gray before:duration-300">
+                        <span class="text-[16px] text-secendary mb-[20px] duration-300">2013 - 2015</span>
+                        <h4 class="text-[24px] capitalize mb-[5px]">Secondary School Certificate</h4>
+                        <h6 class="text-[16px] text-secendary capitalize">laxmipur BL high school</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ resume part ends ================= -->
+
+    <!-- ================ service part start ================= -->
+    <section id="service" class="py-[70px]">
+        <div class="container">
+            <div class="service-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[120px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">services</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">My <span class="text-primary">Specializations</span></h2>
+                <div class="ser-item px-[50px] py-[40px]  border-[1px] border-gray rounded-[20px] hover:border-primary duration-300 mb-[20px]">
+                    <div class="flex justify-between items-center">
+                        <h4 class="text-[24px] capitalize">Website Design</h4>
+                        <span class="text-primary text-[30px] ml-[10px]">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </span>
+                    </div>
+                    <p class="text-[14px] text-secendary mt-[5px]">I created digital products with unique ideas use HTML, CSS & JavaScript</p>
+                    <span class="text-[12px] uppercase mt-[30px]">06 project</span>
+                </div>
+                <div class="ser-item px-[50px] py-[40px]  border-[1px] border-gray rounded-[20px] hover:border-primary duration-300 mb-[20px]">
+                    <div class="flex justify-between items-center">
+                        <h4 class="text-[24px] capitalize">fully responsive & pixel perfect design</h4>
+                        <span class="text-primary text-[30px] ml-[10px]">
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                    <p class="text-[14px] text-secendary mt-[5px]">I will do Modern & Clean Design, Easy to customize</p>
+                    <span class="text-[12px] uppercase mt-[30px]">06 project</span>
+                </div>
+                <div class="ser-item px-[50px] py-[40px]  border-[1px] border-gray rounded-[20px] hover:border-primary duration-300">
+                    <div class="flex justify-between items-center">
+                        <h4 class="text-[24px] capitalize">W3C validate HTML Code & SEO Friendly</h4>
+                        <span class="text-primary text-[30px] ml-[10px]">
+                            <i class="fa-solid fa-code"></i>
+                        </span>
+                    </div>
+                    <p class="text-[14px] text-secendary mt-[5px]">I will make Developer Friendly Code & Compatible with all browser Chrome, Firefox, Safari, IE9+, iOS device, iPhone, etc</p>
+                    <span class="text-[12px] uppercase mt-[30px]">06 project</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ service part ends ================= -->
+
+    <!-- ================ service part start ================= -->
+    <section id="skill" class="py-[70px]">
+        <div class="container">
+            <div class="skill-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[130px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-code"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">my skills</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">My <span class="text-primary">Advantages</span></h2>
+                <div class="grid grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-[30px]">
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/html.png" alt="html" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">95%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center uppercase mt-[10px]">html</h6>
+                    </div>
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/css.png" alt="css.png" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">85%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center uppercase mt-[10px]">css</h6>
+                    </div>
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/tailwind.png" alt="tailwind" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">85%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center mt-[10px]">Tailwind CSS</h6>
+                    </div>
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/bootstrap.png" alt="bootstrap" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">90%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center capitalize mt-[10px]">bootstrap</h6>
+                    </div>
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/js.png" alt="js" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">30%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center mt-[10px]">JavaScript</h6>
+                    </div>
+                    <div class="skill-item">
+                        <div class="text-center py-[25px] border-[1px] border-gray rounded-[10px] duration-300">
+                            <img src="./images/jquery.png" alt="jquery" class="mx-auto">
+                            <h5 class="text-[30px] text-primary leading-none tracking-[2px] pt-[20px]">50%</h5>
+                        </div>
+                        <h6 class="text-[24px] text-center mt-[10px]">jQuery</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ service part ends ================= -->
+
+    <!-- ================ portfolio part start ================= -->
+    <section id="portfolio" class="py-[70px]">
+        <div class="container">
+            <div class="portfolio-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[130px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-building"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">portfolio</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">Featured <span class="text-primary">Projects</span></h2>
+                <a href="#" class="block portfolio-item">
+                    <div class="relative">
+                        <img src="./images/portfolio1.jpg" alt="portfolio1" class="rounded-[25px]">
+                        <span class="absolute bottom-[20px] left-[20px] bg-white py-[8px] px-[18px] text-black text-[14px] rounded-full duration-300">HTML Template</span>
+                    </div>
+                    <h3 class="text-[24px] mt-[25px] duration-300">Bureau - Architecture Studio Website</h3>    
+                </a>
+                <div class="w-full flex sm:flex-wrap xs:flex-wrap gap-[30px] mt-[60px]">
+                    <a href="#" class="block portfolio-item">
+                        <div class="relative">
+                            <img src="./images/portfolio2.jpg" alt="portfolio2" class="rounded-[25px]">
+                            <span class="absolute bottom-[20px] left-[20px] bg-white py-[8px] px-[18px] text-black text-[14px] rounded-full duration-300">HTML Template</span>
+                        </div>
+                        <h3 class="text-[24px] mt-[25px] duration-300">Tailwind CSS HTML Template</h3>    
+                    </a>
+                    <a href="#" class="block portfolio-item">
+                        <div class="relative">
+                            <img src="./images/portfolio3.jpg" alt="portfolio3" class="rounded-[25px]">
+                            <span class="absolute bottom-[20px] left-[20px] bg-white py-[8px] px-[18px] text-black text-[14px] rounded-full duration-300">HTML Template</span>
+                        </div>
+                        <h3 class="text-[24px] mt-[25px] duration-300">Bootstrap HTML Template</h3>    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ portfolio part ends ================= -->
+
+    <!-- ================ testimonial part start ================= -->
+    <section id="testimonial" class="py-[70px]">
+        <div class="container">
+            <div class="testimonial-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[140px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-user-group"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">testimonial</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[35px]">Trusted by <span class="text-primary">Hundered Clients</span></h2>
+
+                <!-- swiper slider part start -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide p-[50px] border-[1px] border-gray rounded-[25px]">
+                        <div class="flex items-center space-x-[15px]">
+                            <div class="w-[50px] h-[50px]">
+                                <img src="./images/testimonial-1.jpg" alt="testimonial-1" class="rounded-full">
+                            </div>
+                            <div>
+                                <h6 class="text-[18px] capitalize">paublo dybala</h6>
+                                <span class="text-[13px] text-secendary">CEO of <span class="text-primary">IBM Global</span></span>
+                            </div>
+                        </div>
+                        <p class="text-[24px] leading-[36px] py-[40px]">“Sabbir- A Developer with the creativity, professional and master of code. Much more than what i'm expect. High quality product and flexible price. Recommended!.”</p>
+                        <a href="#" class="text-[12px] uppercase underline">project</a>
+                      </div>
+                      <div class="swiper-slide p-[50px] border-[1px] border-gray rounded-[25px]">
+                        <div class="flex items-center space-x-[15px]">
+                            <div class="w-[50px] h-[50px]">
+                                <img src="./images/testimonial-2.jpg" alt="testimonial-2" class="rounded-full">
+                            </div>
+                            <div>
+                                <h6 class="text-[18px] capitalize">ES Morilo</h6>
+                                <span class="text-[13px] text-secendary">Product management of <span class="text-primary">Invision Inc</span></span>
+                            </div>
+                        </div>
+                        <p class="text-[24px] leading-[36px] py-[40px]">“Sabbir was a real pleasure to work with and we look
+                            forward to working with him again. He's definitely the kind of
+                            Front-end developer that you can trust with any project from A-Z.”</p>
+                        <a href="#" class="text-[12px] uppercase underline">project</a>
+                      </div>
+                      <div class="swiper-slide p-[50px] border-[1px] border-gray rounded-[25px]">
+                        <div class="flex items-center space-x-[15px]">
+                            <div class="w-[50px] h-[50px]">
+                                <img src="./images/testimonial-3.jpg" alt="testimonial-3" class="rounded-full">
+                            </div>
+                            <div>
+                                <h6 class="text-[18px] capitalize">Foden Bid</h6>
+                                <span class="text-[13px] text-secendary">Director of <span class="text-primary">LLC</span></span>
+                            </div>
+                        </div>
+                        <p class="text-[24px] leading-[36px] py-[40px]">“Extremely professional and fast service!. Sabbir Is a master of code and he also very creative. We done 2 projects with him and certain will continue.”</p>
+                        <a href="#" class="text-[12px] uppercase underline">project</a>
+                      </div>
+                    </div>
+
+                    <!-- pagination btn -->
+                    <div class="flex items-center mt-[40px] space-x-[15px]">
+                        <div class="swiper-btn-prev w-[40px] h-[40px] border-[1px] border-gray rounded-full text-center leading-[40px] hover:text-primary hover:border-primary duration-300">
+                            <span>
+                                <i class="fa-solid fa-angle-left"></i>
+                            </span>
+                        </div>
+                        <div class="swiper-pagination-nmbr w-[32px] text-[14px]"></div>
+                        <div class="swiper-btn-next w-[40px] h-[40px] border-[1px] border-gray rounded-full text-center leading-[40px] hover:text-primary hover:border-primary duration-300">
+                            <span>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- pagination btn end -->
+                </div>
+                <!-- swiper slider part end -->
+            </div>
+        </div>
+    </section>
+    <!-- ================ testimonial part ends ================= -->
+
+    <!-- ================ testimonial part start ================= -->
+    <section id="contact" class="pt-[70px] mb-[60px]">
+        <div class="container">
+            <div class="contact-content xl:ml-[370px] xl:mr-[50px] lg:mx-[30px]">
+                <div class="w-[120px] flex items-center justify-center text-[12px] text-primary leading-none border-[1px] border-primary rounded-full p-[10px] mb-[50px]">
+                    <span>
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </span>
+                    <span class="uppercase ml-[10px] text-white">contact</span>
+                </div>
+                <h2 class="text-[48px] xs:text-[38px] leading-[60px] mt-[55px] mb-[25px]">Let's Work <span class="text-primary">Together!</span></h2>
+                <span class="text-[24px]">sabbirh1357@gmail.com</span>
+                <div class="flex sm:flex-wrap xs:flex-wrap justify-between items-center mt-[60px]">
+                    <div class="w-full">
+                        <label for="full name" class="block text-[12px] uppercase">
+                            full name <span class="text-primary">*</span>
+                        </label>
+                        <input type="text" placeholder="your full name" class="bg-transparent py-[10px] pr-[15px] placeholder:text-[16px] placeholder:text-secendary placeholder:capitalize outline-none">
+                    </div>
+                    <div class="w-full sm:mt-[20px] xs:mt-[20px]">
+                        <label for="email" class="block text-[12px] uppercase">
+                            email <span class="text-primary">*</span>
+                        </label>
+                        <input type="email" placeholder="your email address" class="bg-transparent py-[10px] pr-[15px] placeholder:text-[16px] placeholder:text-secendary placeholder:capitalize outline-none">
+                    </div>
+                </div>
+                <div class="mt-[40px]">
+                    <label for="full name" class="block text-[12px] uppercase">
+                        message
+                    </label>
+                    <textarea name="comment" placeholder="write your message here" class="bg-transparent w-full h-[140px] py-[10px] pr-[15px] placeholder:text-[16px] placeholder:text-secendary placeholder:capitalize border-b-[1px] border-gray outline-none"></textarea>
+                </div>
+                <div class="text-[12px] uppercase mt-[30px]">
+                    <label for="upload-attachment" class="cursor-pointer">
+                        <span>
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </span>
+                        <span class="ml-[10px]">add an attachment</span>
+                        <input type="file" name="file" id="upload-attachment" class="hidden">
+                    </label>
+                </div>
+                <button type="submit" name="submit" id="submit-form" class="bg-primary mt-[40px] px-[30px] py-[10px] border-[2px] border-primary rounded-full text-center text-[16px] uppercase hover:bg-transparent hover:text-primary duration-300">send message</button>
+            </div>
+        </div>
+    </section>
+    <!-- ================ testimonial part ends ================= -->
+
+
+
+
+
+    <!-- ============= all js link added ============== -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <!-- ============= all js link added ends ============== -->
+
+</body>
+</html>

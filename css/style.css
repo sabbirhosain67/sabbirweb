@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ================================================== base part ============================================== */
+@layer base {
+
+    /* ================= fonts import ================== */
+    @font-face {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        src: url(../fonts/Inter-Regular.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        background-color: #212428;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        scroll-behavior: smooth;
+    }
+    span, a {
+        display: inline-block;
+    }
+}
+
+/* ========================================== components part ============================================ */
+@layer components {
+    .nav-item {
+        @apply relative hover:text-primary transition-all duration-300 px-[17px] cursor-pointer before:content-['home'] before:absolute before:top-0 before:left-[-43px] before:text-[12px] before:text-white capitalize before:bg-gray before:px-[5px] before:py-[3px] before:rounded-[4px] after:absolute after:content-[''] after:top-[50%] after:translate-y-[-50%] after:left-[-5px] after:w-[10px] after:h-[10px] after:bg-gray after:rotate-45 after:-z-10 before:hidden after:hidden hover:before:block hover:after:block before:transition-all after:transition-all
+    }
+}
+
+/* ========================================== utilities part ============================================ */
+@layer utilities {
+
+    /* ========= preloader part start =========== */
+    #preloader {
+        background-image: url(../images/preloader.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20%;
+    }
+    /* ========= preloader part ends =========== */
+
+    /* ========== mega menu start ============ */
+    .mega-menu button:hover div {
+        background-color: #EE5F38;
+    }
+    .active {
+        visibility: visible;
+        z-index: 999999;
+    }
+    .active .menu-item {
+        right: 0;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        z-index: 99999999;
+    }
+    /* ========== mega menu ends ============ */
+
+    /* ========== home part start ============ */
+    #home .img-rotate {
+        animation: rotate 3.5s linear infinite;
+        -webkit-animation: rotate 6.0s linear infinite;
+    }
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }
+    }
+    /* ========== home part ends ============ */
+
+    /* ========== reasum part start ============ */
+    .edu-item:hover::before {
+        background-color: #EE5F38;
+    }
+    .edu-item:hover span {
+        color: #EE5F38;
+    }
+    /* ========== reasum part ends ============ */
+
+    /* ========== service part start ============ */
+    .ser-item:hover span {
+        text-decoration: underline;
+    }
+    /* ========== service part ends ============ */
+
+    /* ========== skills part start ============ */
+    .skill-item:hover div {
+        border-color: #EE5F38;
+    }
+    /* ========== skills part ends ============ */
+
+    /* ========== portfolio part start ============ */
+    .portfolio-item:hover span {
+        background-color: #212428;
+        color: #ffffff;
+    }
+    .portfolio-item:hover h3 {
+        text-decoration: underline;
+    }
+    /* ========== portfolio part ends ============ */
+
+    /* ========== testimonial part start ============ */
+    .swiper-pagination-nmbr .swiper-pagination-total {
+        color: #999999;
+    }
+    /* ========== testimonial part ends ============ */
+}
+
