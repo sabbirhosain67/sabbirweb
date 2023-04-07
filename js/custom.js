@@ -13,6 +13,11 @@ $(document).ready(function(){
 });
 
 
+// =========== wow animation =============
+new WOW().init();
+// =========== wow animation =============
+
+
 // ============ Preloader ===============
 var loader = document.getElementById("preloader");
 
